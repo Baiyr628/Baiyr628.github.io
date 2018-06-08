@@ -43,7 +43,24 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+    width: 100%;
+    height: 300px;
+    line-height: 300px;
     z-index: 10;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-caption  h1{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    line-height: 88px;
+    color: rgba(255,255,255,0.5);
+    font-family: 'Great Vibes', cursive;
 }
 
 /* Declare heights because of positioning of img element */
